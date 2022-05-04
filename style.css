@@ -1,0 +1,89 @@
+body{
+  background-color:aliceblue;
+  color:#575F7D;
+  font-size: 16px;
+  font-family: 'Lora', serif;;
+  font-weight: lighter;
+}
+ /*Titles*/
+
+h1, h2{
+  color:#575F7D;
+  font-size: 32px;
+  font-weight: 900;
+  font-family:'Roboto', sans-serif;
+}
+
+h2{
+  font-size: 20px;
+  color:#8199C1 ;
+  font-weight: 500;
+}
+
+img{
+border-radius: 50%;
+}
+
+a{
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color:#58A5F5;
+  font-weight: 600;
+  margin: 16px;
+}
+
+a:hover{
+  transition: .3s;
+  text-decoration-color: white;
+  background-color: #8199C1;
+}
+
+/*div*/
+
+.card-white{
+  background-color: white;
+  padding: 45px;
+  box-shadow: 0px 15px 30px rgb(0, 0, 0/ 10%);
+  border-radius: 5px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.btn-call-to-action{
+  background-color:#58A5F5 ;
+  color:white;
+  padding: 15px 10px;
+  border-radius: 5px;
+}
+
+.list-inline > li{
+  display: inline-block;
+  padding: 20px;
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0;
+
+}
+
+#introduction p {
+  margin-bottom: 50px;
+}
+
+
+i{
+  font-size: 50px;
+  color:black;
+}
+.container{
+  width: 700px;
+  margin: 40px auto;;
+}
+/* media querries*/
+
+@media (max-width: 540px){
+ .container {
+  width: 300px
+  }
+}
